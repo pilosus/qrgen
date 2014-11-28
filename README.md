@@ -22,13 +22,14 @@ be useful for automation QR codes generation tasks.
 
 ## Usage
 
-Usage: `qrgen.py "Your text" [output format] [output filename]`,
-       where [output format] is an image file format,
-             [output filename] is a filename of the output image.
+    Usage: `qrgen.py "Your text" [output format] [output filename]`,
+           where [output format] is an image file format,
+                 [output filename] is a filename of the output image.
 
 When format and filename are omitted "QR.svg" is generated.
 
 Examples:
+
        `qrgen.py "qrgen is useful" svg qrgenad.svg`
 	   `qrgen.py "qrgen is useful" svg qrgenad`
 
@@ -40,7 +41,7 @@ See COPYING.
 
 ## Contact
 
-Author: Vitaly R. Samigullin
+Author: Vitaly R. Samigullin  
 Email: vrs {at} pilosus {period} org
 
 ## TODO
